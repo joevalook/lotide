@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const eqArrays = function (ar1, ar2) {
+const eqArrays = function(ar1, ar2) {
   if (ar1.length !== ar2.length) {
     return false;
   }
@@ -28,7 +28,7 @@ const assertArraysEqual = function(ar1, ar2) {
 
 const letterPositions = function(sentence) {
   const results = {};
-  for (i = 0; i < sentence.length; i++) {
+  for (let i = 0; i < sentence.length; i++) {
     if (results[sentence[i]]) {
       
       results[sentence[i]].push(i);
@@ -37,7 +37,7 @@ const letterPositions = function(sentence) {
     }
     
   }
-  console.log(results)
+  console.log(results);
   return results;
-}
+};
 letterPositions("sentence is there for you");
