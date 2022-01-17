@@ -40,4 +40,6 @@ const letterPositions = function(sentence) {
   console.log(results);
   return results;
 };
-letterPositions("sentence is there for you");
+module.exports = letterPositions;
+
+//letterPositions("sentence is there for you");

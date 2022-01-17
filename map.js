@@ -27,7 +27,7 @@ const assertArraysEqual = function(ar1, ar2) {
   }
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
+
 
 const map = function(arr, func) {
   const results = [];
@@ -36,7 +36,12 @@ const map = function(arr, func) {
   }
   return results;
 };
+
+module.exports = map;
+
+/*
+const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);
 console.log(results1);
-
 assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
+*/

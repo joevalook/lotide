@@ -15,13 +15,17 @@ const findKey = function(obj, func) {
   }
 };
 
+module.exports = findKey;
+
+/*
 let assertCase = findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
   "noma":      { stars: 2 },
-  "elBulli":   { stars: 3 },
+  "elBulli":   { stars: 3, toys: 4},
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
-}, x => x.stars === 2); // => "noma"
+}, x => x.toys === 4); // => "elBulli"
 
-assertEqual(assertCase, "noma");
+assertEqual(assertCase, "elBulli");
+*/

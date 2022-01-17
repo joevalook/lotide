@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@thejayvee/lotide",
+  "version": "1.0.1",
+  "description": "A mini clone of the Lodash Library with a multitude of useful functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/joevalook/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joe Valookaran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joevalook/lotide/issues"

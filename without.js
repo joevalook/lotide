@@ -44,6 +44,8 @@ const without = function(ar1, ar2){
   return e
 };
 
+module.exports = without;
+/*
 console.log(without([0,1,2],[1]));
 console.log(without([0,1,"2"],[2]));
 console.log(without([0,1,1],[3]));
@@ -53,3 +55,4 @@ const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
 // Make sure the original array was not altered by the without function
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+*/
