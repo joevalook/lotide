@@ -1,4 +1,4 @@
-const eqArrays = require('../eqArrays');
+const eqArray = require('../head');
 const assertEqual = require('../assertEqual');
 
 
