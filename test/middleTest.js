@@ -1,6 +1,6 @@
 const middle = require('../middle');
 const assert = require('chai').assert;
-//const assertEqual = require('../assertEqual');
+
 
 describe("#middle", () => {
   it("returns [] for [1, 2]", () => {
